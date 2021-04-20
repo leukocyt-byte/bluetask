@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,6 +9,7 @@
 body {
   background: linear-gradient(85.66deg, #3847b5 62.24%, #253194 118.32%);
   height: 1500px;
+  font-family: 'Sen', sans-serif;
 }
 
 #navbar {
@@ -40,7 +41,6 @@ body {
   text-align: right;
   width: 100%;
   vertical-align: middle;
-  font-family: 'Sen', sans-serif;
 }
 
 .main-nav__items {
@@ -64,4 +64,16 @@ body {
 .main-nav__item a:hover,
 .main-nav__item a:active {
   box-shadow: 0 3px 0 #5454d4;
+}
+
+main {
+  position: absolute;
+  top: 90px;
+  padding: 20px;
+  z-index: 5;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.5;
 }
