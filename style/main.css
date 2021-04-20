@@ -8,6 +8,13 @@
 
 body {
   background: linear-gradient(85.66deg, #3847b5 62.24%, #253194 118.32%);
+  height: 1500px;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .main-header {
