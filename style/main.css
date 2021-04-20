@@ -77,3 +77,8 @@ main {
   letter-spacing: 2px;
   line-height: 1.5;
 }
+
+.far {
+  position: absolute;
+  left: 50%;
+}
