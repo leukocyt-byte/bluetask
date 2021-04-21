@@ -72,8 +72,23 @@ main {
   padding: 15px;
   z-index: 5;
   color: white;
+}
+
+#main_description {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 2px;
   line-height: 1.5;
+}
+
+#main_subscribe__info {
+  position: relative;
+  font-size: 0.8rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+.arrow_down {
+  display:inline-block;
+  vertical-align:middle;
 }
